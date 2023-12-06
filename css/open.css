@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+body{
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+    font-family: 'Noto Sans';
+    color: #1C1D1E;
+    height:100%;
+    width: 100%;
+}
+#back{
+    opacity: 90%;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+    position:absolute;
+    color: rgb(0,0,0,0.7);
+    filter: blur(5px);
+}
+.heading
+{
+	background:transparent;
+	font-size:25px;
+	margin-top: -1px;
+	margin-left:-40px;
+}
+p{
+    color: white;
+    text-transform: capitalize;
+}
+#back{
+    
+}
+.container {
+    display: flex;
+    line-height: 6vh;
+    align-items: center;
+    
+}
+.container2{
+    margin: 20px;
+    justify-content: center;
+
+}
+#inline{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.bten{
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #1b1b1b;
+    border-radius: 5px;
+    border-width: 5px;
+    background-color:white;
+    color: black;
+}
+@keyframes btnAni {
+    from{
+        background-color: white;
+        font-size: 20px;
+        transform: translateX(-300px);
+    }
+    to{
+        background-color: #1b1b1b;
+        font-size: 30px;
+        transform: translateX(0);
+
+    }
+}
+.bten:hover{
+    animation-name: btnAni ;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    background-color: #1b1b1b;
+        font-size: 30px;
+}

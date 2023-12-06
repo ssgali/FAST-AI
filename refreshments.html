@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/refreshments.css" />
+    <title>Refreshemnts</title>
+    <meta charset="utf-8" />
+    <meta name=" viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="shortcut icon" type="image" href="css/img/ico.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body style="background: url(images/1.jpeg)">
+    <div class="navbar">
+      <img src="css/img/ico.svg" class="nav-logo" />
+      <nav>
+        <ul>
+          <li><a href="main.html">Home</a></li>
+          <li><a href="refreshments.html">Refreshments</a></li>
+          <li><a href="blockbuster.html">BlockBuster</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="login.html" class="remove">Log In</a></li>
+          <li><a href="signup.html" class="remove">Sign Up</a></li>
+		  <li><a href="login.html" onclick = "logout()" class = "remove_lo" >Log Out</a></li>
+        </ul>
+      </nav>
+      <a onclick="check()"><img src="css/img/cart.png" class="nav-menu" /></a>
+    </div>
+    <br /><br /><br /><br />
+    <div style="margin-top: 40px; text-align: center">
+      <h1 class="heading">REFRESHMENTS</h1>
+    </div>
+    <div class="container1">
+      <div class="box">
+        <div class="box1">
+          <img class="img-contain" src="images/popcorn.jpg" alt="LOL" />
+          <p>Salted Popcorn<br><b> Rs 500 </b></p>
+          <br /><br />
+          <input type="number" name="number" id="pop" />
+        </div>
+        <div class="box2">
+          <img class="img-contain" src="images/snacks.jpg" alt="" />
+          <p>Mixed Snacks<br><b> Rs 350 </b></p>
+          <br /><br />
+          <input type="number" name="number" id="m_snack" />
+        </div>
+        <div class="box3">
+          <img class="img-contain" src="images/drinks.jpg" alt="" />
+          <p>DRINKS<br><b> Rs 250 </b></p>
+          <br /><br />
+          <input type="number" name="number" id="drinks" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="box1">
+          <img class="img-contain" src="images/frychick.jpg" alt="" />
+          <p>BBQ flavoured</p>
+          <p>Fried Chicken <br><b> Rs 550 </b></p>
+          <br /><br />
+          <input type="number" name="number" id="chick" />
+        </div>
+        <div class="box2">
+          <img class="img-contain" src="images/cake.jpg" alt="" />
+          <p>Chocolate flavoured</p>
+          <p>cream cake<br><b> Rs 300 </b></p>
+          <br /><br/>
+          <input type="number" name="number" id="cake" />
+        </div>
+        <div class="box3">
+          <img class="img-contain" src="images/burger.jpg" alt="" />
+          <p>Zinger Burger</p>
+          <p>+</p>
+          <p>Fries<br><b> Rs 400 </b></p>
+          <br /><br />
+          <input type="number" name="number" id="burger" />
+        </div>
+      </div>
+      <div class="box">
+        <div class="box1">
+          <img class="img-contain" src="images/hotdog.jpeg" alt="" />
+          <p>Mexican Hotdog<br><b> Rs 600 </b></p>
+          <br /><br />
+          <input type="number" name="number" id="mex_hd" />
+        </div>
+        <div class="box2">
+          <img class="img-contain" src="images/pizza.jpeg" alt="" />
+          <p>Pepperoni Pizza<br><b> Rs 1000 </b></p>
+          <br /><br />
+          <input type="number" name="number" id="pizza" />
+        </div>
+        <div class="box3">
+          <img class="img-contain" src="images/coffee.jpg" alt="" />
+          <p>COFFEE<br><b> Rs 200 </b></p>
+          <br /><br />
+          <input type="number" name="number" id="coffee" />
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center; width: 100%">
+      <button onclick="validate_check()" id="ending-b">Save and put to cart</button>
+    </div>
+    <footer>
+      <div class="foot-container">
+        <div class="foot-row">
+          <div class="foot-col" id="contact">
+            <h4>Contact US</h4>
+            <ul>
+              <li><a href="#">centralcinema@gmail.com</a></li>
+              <li><a href="#">+92 300 5206788</a></li>
+              <li><a href="#">G11/1 Islamabad, Pakistan</a></li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="categories.html">Refreshments</a></li>
+              <li><a href="blockbuster.html">BlockBuster</a></li>
+              <li><a onclick="check()">Cart</a></li>
+              <li><a href="login.html">Account</a></li>
+            </ul>
+          </div>
+          <div class="foot-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/sinisterr007/"><i class="fab fa-facebook-f"></i></a>
+              <a href="http://github.com/ssgali"><i class="fab fa-github"></i></a>
+              <a href="https://instagram.com/pub_enjoyer"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.snapchat.com/add/aaxibarain63"><i class="fab fa-snapchat"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/function.js"></script>
+  </body>
+</html>

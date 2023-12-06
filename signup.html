@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta name=" viewport" content="width=device-width, initial-scale=1">
+        <title>CentralCinema</title>
+        <link rel="shortcut icon" type="image" href="css/img/ico.svg">
+        <link rel="stylesheet" href="css/login-signup-css.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">		
+    </head>
+    <body>
+		<div class="head-container">
+            <div>
+                <div class="navbar">
+                    <img src="css/img/ico.svg" class="nav-logo">
+                    <nav>
+                        <ul>
+                            <li><a href="main.html">Home</a></li>
+                            <li><a href="refreshments.html">Refreshments</a></li>
+                            <li><a href="blockbuster.html">BlockBuster</a></li>
+                            <li><a href="#contact">Contact</a></li>
+							<li><a href="login.html" class = "remove" >Log In</a></li>
+							<li><a href="signup.html" class = "remove" >Sign Up</a></li>
+                        </ul>
+                    </nav>
+                    <a onclick = "check()"><img src="css/img/cart.png" class="nav-menu"></a>
+                </div>
+            </div>
+        </div>
+
+
+		<div class="log-in-form">
+				<h1>Sign Up Now</h1>
+			<form>
+					<div>
+						<p class="input-heading">First Name</p>
+						<input type="name" id = ""class="input-box" placeholder="Enter First Name">
+						<p class="input-heading">Last Name</p>
+						<input type="name" class="input-box" placeholder="Enter Last Name">
+					</div>
+					
+					<p class="input-heading">Email</p>
+					<input type="email" class="input-box" placeholder="Your Email" name = "el" id = "el">
+					<p class="input-heading">Password</p>
+					<input type="password" class="input-box" placeholder="Your Password" name = "pass" id = "pass">
+					<p class="input-heading">Confirm Password</p>
+					<input type="password" class="input-box" placeholder="Confirm Your Password" name = "pass1" id = "pass1">
+					<p class="input-heading">Gender</p>
+					  <select class="input-box" name="gender" id="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					  </select>
+					<p class="input-heading">Date of Birth</p>
+					<input type="date" class="input-box" placeholder="Select Date" name = "dob" id = "dob">
+					
+					<p><span><input type="checkbox"></span> I agree to the <a href = "terms.html">terms of Services</a></p>
+					<button type="button" class="login-btn" onclick = "signup()">Register Now</button>
+					<hr>
+					<p class="or">OR</p>
+					<p>Already have an account?</p>
+					<a href="login.html"><button type="button" class="login-btn">Login</button></a>
+					
+			</form>
+		</div>
+		
+		<footer>
+            <div class="foot-container">
+                <div class="foot-row">
+                    <div class="foot-col" id="contact">
+                        <h4>Contact US</h4>
+                            <ul>
+                                <li><a href="#">centralcinema@gmail.com</a></li>
+                                <li><a href="#">+92 300 5206788</a></li>
+                                <li><a href="#">G11/1 Islamabad, Pakistan</a></li>
+                            </ul>
+                    </div>
+                    <div class="foot-col">
+                        <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="refreshments.html">Refreshments</a></li>
+                                <li><a href="blockbuster.html">BlockBuster</a></li>
+                                <li><a onclick = "check()">Cart</a></li>
+                                <li><a href="login.html">Account</a></li>
+                            </ul>
+                    </div>
+                    <div class="foot-col">
+                        <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/sinisterr007/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="http://github.com/ssgali"><i class="fab fa-github"></i></a>
+                                <a href="https://instagram.com/pub_enjoyer"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.snapchat.com/add/aaxibarain63"><i class="fab fa-snapchat"></i></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<script src = "js/function.js"></script>
+    </body>
+</html>

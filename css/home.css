@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: black;
+    
+}
+#back{
+    
+    opacity: 90%;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+    position:absolute;
+    color: rgb(0,0,0,0.7);
+    filter: blur(5px);
+}
+.title{
+    text-decoration-line: underline;
+    text-shadow: 5px black;
+    font-size: 35px;
+    padding: 10px;
+    text-align: left;
+    height: 40px;
+    display: block;
+    align-items: center;
+}
+#newRelease{
+    display: flex;
+    justify-content: space-around;
+    margin:0px 10px;
+    width: 100%;
+    height: auto;
+}
+.newRelease
+{
+    width: 100%;
+}
+.contents{
+    box-shadow: 5px 5px 5px 5px rgb(31, 30, 30);
+    background-color:black;
+    border-width: 5px;
+    border-bottom: black;
+    justify-content: space-between;
+}
+.para{
+    height: 10px;
+    color: azure;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contents img{
+    height: 350px;
+    width: 100%;
+}
+
+.contents button{
+    height:50px ;
+}
+@keyframes b-color{
+    from
+    {
+        background-color: white;
+        color: black;
+        font-weight: none;
+    }
+    to
+    {
+        background-color: black;
+        color: white;
+        font-weight:bold ;
+
+    }
+    
+}
+.contents button:hover{
+    animation-name: b-color ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+

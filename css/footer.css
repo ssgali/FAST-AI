@@ -1,0 +1,89 @@
+.foot-container
+{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.foot-col ul
+{
+    list-style: none;
+}
+.foot-row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer
+{
+    line-height: 1.5;
+    background-color: #24266b;
+	opacity: .9;
+    padding: 70px 0;
+}
+.foot-col
+{
+    text-align: center;
+    width: 33%;
+    padding: 0 15px;
+}
+.foot-col h4
+{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.foot-col h4::before
+{
+    margin-left: 180px;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.foot-col ul li:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+
+.foot-col ul li a
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.foot-col ul li a:hover
+{
+    color: white;
+    padding-left: 10px;
+}
+.foot-col .social-links a
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.foot-col .social-links a:hover;
+{
+    color: #24262b;
+    background-color: #ffffff;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockBuster</title>
+	<link rel="shortcut icon" type="image" href="css/img/ico.svg">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/login-signup-css.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	
+</head>
+<body style = "background: none; background-color: grey;">
+	<div>
+		<div style = "background-color:grey; opacity: .5;" class="navbar">
+			<img src="css/img/ico.svg" class="nav-logo">
+			<nav>
+				<ul>
+					<li><a href="main.html">Home</a></li>
+					<li><a href="refreshments.html">Refreshments</a></li>
+					<li><a href="blockbuster.html">BlockBuster</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="login.html" class = "remove" >Log In</a></li>
+					<li><a href="signup.html" class = "remove" >Sign Up</a></li>
+					<li><a href="login.html" onclick = "logout()" class = "remove_lo" >Log Out</a></li>
+				</ul>
+			</nav>
+			<a onclick = "check()"><img src="css/img/cart.png" class="nav-menu"></a>
+		</div>
+	</div>
+	<div data-bs-ride="carousel" id="carouselExampleCaptions" class="carousel slide" data-bs-interval="2000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div id="slides">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/bat.jpeg" onclick = "alert('Add From Homepage!');" class="d-block w-100" alt="..." style="height: 550px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>BATMAN</h5>
+              <p>Batman is called to intervene when the mayor of Gotham City is murdered.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/opi.jpg" onclick = "alert('Add From Homepage!');" class="d-block w-100" alt="..." style="height: 550px;" >
+            <div class="carousel-caption d-none d-md-block">
+              <h5>OPENHEIMER</h5>
+              <p>"Now I am death, destroyer of Worlds"</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/inside.jpg" onclick = "alert('Add From Homepage!');" class="d-block w-100" alt="..." style="height: 550px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>INSIDIOUS 3</h5>
+              <p>Elise Rainier, who claims to see ghosts, is haunted by her past as she is drawn back to her old ghostly home.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+	<footer>
+            <div classs="foot-container">
+                <div class="foot-row">
+                    <div class="foot-col" id="contact">
+                        <h4>Contact US</h4>
+                            <ul>
+                                <li><a href="#">centralcinema@gmail.com</a></li>
+                                <li><a href="#">+92 300 5206788</a></li>
+                                <li><a href="#">G11/1 Islamabad, Pakistan</a></li>
+                            </ul>
+                    </div>
+                    <div class="foot-col">
+                        <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="refreshments.html">Refreshments</a></li>
+                                <li><a href="blockbuster.html">BlockBuster</a></li>
+                                <li><a onclick = "check()" href="">Cart</a></li>
+                                <li><a href="login.html">Account</a></li>
+                            </ul>
+                    </div>
+                    <div class="foot-col">
+                        <h4>Follow Us</h4>
+						<div class="social-links">
+							<a href="https://www.facebook.com/sinisterr007/"><i class="fab fa-facebook-f"></i></a>
+							<a href="http://github.com/ssgali"><i class="fab fa-github"></i></a>
+							<a href="https://instagram.com/pub_enjoyer"><i class="fab fa-instagram"></i></a>
+							<a href="https://www.snapchat.com/add/aaxibarain63"><i class="fab fa-snapchat"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src = "js/function.js"></script>
+</body>
+</html>

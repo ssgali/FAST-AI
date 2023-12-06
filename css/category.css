@@ -1,0 +1,80 @@
+
+
+.category-body
+{
+    margin-top: -500px;
+}
+
+
+
+
+.cat-body h2
+{
+    margin-top: 40px;
+    padding-top: 30px;
+    padding: 18px;
+    margin-left: 10%;
+    width: 400px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 80%;
+    font-weight: 800;
+    background: linear-gradient(120deg,rgb(115, 43, 231),rgb(80, 94, 219)) ;
+    border-radius: 60px;
+}
+
+.see-all
+{
+    margin-left: 80%;
+    font-size: 25px;
+    font-weight: 800;
+    opacity: 70%;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cat-body img
+{
+    padding: 15px;
+    height: 300px;
+    width: 300px;
+}
+
+.main-categories-row
+{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+}
+
+.card-body h5
+{
+    font-size: larger;
+}
+.card-body p
+{
+    padding: 20px;
+    font-size: 15px;
+}
+.card-body .p-price
+{
+    font-size: 35px;
+}
+
+.row-product-card
+{
+    margin-left: 50px;
+    background-color: rgb(245, 245, 202);
+    border-radius: 20px;
+    text-align: center;
+    width: 25%;
+    padding-bottom: 2em;
+}
+.card-body .cart-button
+{
+   background-color: rgb(60, 248, 85);
+   font-size: 30px;
+   border-radius: 5px;
+}

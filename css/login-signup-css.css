@@ -1,0 +1,105 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #9FE2BF;
+	background-size: cover;
+	background-position: center;
+	background: url('img/movies.jpg');
+	opacity: 2;
+}
+
+.signup-header
+{
+	margin-top: 0px;
+	background-color: rgb(0, 0, 0);
+	position: fixed;
+	width: 100%;
+}
+
+.log-in-form
+{
+	border-radius: 15px;
+	width: 300px;
+	box-shadow: 9px 9px 3px 3px rgba(0,10,100,0.5);
+	background: #28282B;
+	padding: 20px;
+	padding-top: 20px;
+	margin: 8% auto 0;
+	margin-bottom: 50px;
+	margin-top: -450px;
+	text-align: center;
+}
+
+.log-in-form h1
+{
+	background: linear-gradient(150deg,rgb(41, 39, 39),rgb(83, 83, 83));
+	opacity: 90%;
+	font-size: 30px;
+	color: #fff;
+	margin: 30px;
+}
+
+.input-box
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #999;
+	outline: none;
+}
+
+button
+{
+	color: #000;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.login-btn
+{
+	background-color: 1c8adb;
+}
+.login-btn:hover
+{
+	background-color: black;
+	color:white;
+}
+
+hr
+{	
+	margin-top: 25px;
+	width: 100%;
+}
+
+.or
+{
+	background: #fff;
+	margin: -10px auto 10px;
+	background-color: #28282B;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.input-heading
+{
+	text-align: left;
+	font-size: 15px;
+	font-family: calibri;
+	margin-bottom: -5px;
+}
+.signup-name
+{
+	flex-grow: 2;
+}
