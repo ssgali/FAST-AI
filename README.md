@@ -1,2 +1,1 @@
-# Jobless_coder
-I am a beacon of knowledge blazing out across the black sea of ignorance. 
+As a dedicated student pursuing a Bachelor's degree in Artificial Intelligence at NUCES FAST, I am deeply passionate about coding, problem-solving, and continuous learning.
