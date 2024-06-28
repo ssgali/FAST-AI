@@ -1,3 +1,2 @@
 # Jobless_coder
-My life work
-I am a beacon of knowledge blazing out across the black sea of ignorance. 
+A Static Website for Final Semester Project in Introduction to Communication and Technology, uses HTML, JavaScript and Bootstrap.
