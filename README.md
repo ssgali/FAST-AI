@@ -8,6 +8,7 @@ Brick Breaker made in C++ (OpenGL) as a semester project for OOP module at FAST-
    (i)   sudo apt update<br>
    (ii)  sudo apt-install build-essential<br>
    (iii) sudo apt-get install freeglut3-dev glew-utils libglew-dev libfreeimage-dev
+
    (iv)  make game
 4. A Game exe will be created that can be executed by **./game**
 
